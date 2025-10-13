@@ -41,15 +41,28 @@ A quantitative analysis of the generated text, compared to the original, reveals
 * `deep_cleaning_voynich.py`: The script used to perform the deep clean on the original transcription file.
 * `voynich.txt`: The original transcription file used as input for the cleaning script.
 * `requirements.txt`: The required Python libraries to run the analysis.
-* `training_checkpoints.zip`: The saved weights of the trained LSTM model.
 * `/data/`: Contains the clean training corpus and the three generated texts.
 * `/charts/`: Contains the output charts from the analysis.
+
+---
+
+## Pre-trained Model
+
+The file `training_checkpoints.zip`, containing the weights of the trained LSTM model, is too large to be hosted directly on GitHub.
+
+You can download it from the following link:
+
+**[Download training_checkpoints.zip](https://drive.google.com/file/d/1JEKYuDnIkEd7BbomDpUWgKeWuFKHDBud/view?usp=drive_link)**
+
+After downloading, please unzip the contents into the main project directory. This step is required if you want to use the pre-trained model for text generation without re-training it.
+
+---
 
 ## How to Replicate the Experiment
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[GSimonin90]/voynich-generative-analysis.git
+    git clone [https://github.com/GSimonin90/voynich-generative-analysis.git](https://github.com/GSimonin90/voynich-generative-analysis.git)
     ```
 2.  **Set up the environment:**
     ```bash
@@ -58,8 +71,11 @@ A quantitative analysis of the generated text, compared to the original, reveals
     .\.venv\Scripts\Activate
     pip install -r requirements.txt
     ```
-3.  **Run the analysis:** The `analyze_voynich.py` script will analyze all four key text files and generate the charts.
-4.  **Re-train the model (Optional):** Open `training_and_generation.ipynb` in Google Colab, upload the `data/voynich_super_clean.txt` file, and run the cells in order.
+3.  **Download the Pre-trained Model:** Download `training_checkpoints.zip` using the link in the section above and unzip it in the project's root folder.
+
+4.  **Run the analysis:** The `analyze_voynich.py` script will analyze all four key text files and generate the charts.
+
+5.  **Re-train the model (Optional):** Open `training_and_generation.ipynb` in Google Colab, upload the `data/voynich_super_clean.txt` file, and run the cells in order.
 
 ---
 
