@@ -38,7 +38,7 @@ A quantitative analysis of the generated text, compared to the original, reveals
 
 * `analyze_voynich.py`: Python script to perform the full statistical analysis on any text file.
 * `training_and_generation.ipynb`: The Google Colab notebook for training the LSTM model and generating the new texts.
-* `deep_cleaner.py`: The script used to perform the deep clean on the original transcription file.
+* `deep_cleaning_voynich.py`: The script used to perform the deep clean on the original transcription file.
 * `voynich.txt`: The original transcription file used as input for the cleaning script.
 * `requirements.txt`: The required Python libraries to run the analysis.
 * `training_checkpoints.zip`: The saved weights of the trained LSTM model.
