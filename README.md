@@ -4,7 +4,19 @@
 
 This repository contains the code, data, and results of a computational study on the nature of the Voynich Manuscript's language (MS 408). This project uses a generative LSTM model to experimentally test the hypothesis that the manuscript's text is an artificial, algorithm-based artifact rather than a natural language.
 
-**Link to the full paper:** `[Coming Soon]`
+---
+
+## Publication and How to Cite
+
+The official version of this paper is permanently archived on Zenodo and can be accessed and cited using the following Digital Object Identifier (DOI):
+
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.17345194-blue)](https://doi.org/10.5281/zenodo.17345194)
+
+If you use this research in your work, please cite it as follows:
+
+> Simonin, G. (2025). *Experimental Verification of the Voynich Manuscript's Artificial Language Hypothesis via Controlled Generative Modeling*. Zenodo. https://doi.org/10.5281/zenodo.17345194
+
+Zenodo provides export options for various citation formats, including BibTeX.
 
 ---
 
