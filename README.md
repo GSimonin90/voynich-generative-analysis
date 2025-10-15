@@ -6,7 +6,7 @@ This repository contains the full codebase, data, and publications for a multi-p
 
 ---
 
-## 🔬 Research Papers
+## Research Papers
 
 This project has resulted in two publications which build upon each other and should be read in sequence.
 
