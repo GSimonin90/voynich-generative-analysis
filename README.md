@@ -16,7 +16,7 @@ This project has resulted in two publications which build upon each other and sh
 
 ### Paper 2: From Grammar to Meaning: A Computational and Historical Framework for Decoding the Voynich Manuscript
 * **Description:** This second paper builds upon the first discovery, reverse-engineering the manuscript's grammar, decoding its conceptual system by linking it to medieval astrological frameworks, and unifying the logic of the zodiacal and botanical sections.
-* **Publication:** Zenodo. `[DOI to be added upon publication]`
+* **Publication:** Zenodo. [![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.17360252-blue)](https://doi.org/10.5281/zenodo.17360252)
 
 ---
 
