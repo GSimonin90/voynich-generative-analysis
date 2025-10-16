@@ -1,3 +1,9 @@
+> **Note: This repository documents the initial phases of the research (Papers 1 & 2).**
+> ### The complete and final research, including the full system decipherment (Paper 3), is available in the new repository:
+> ### **[https://github.com/GSimonin90/voynich-system-decipherment](https://github.com/GSimonin90/voynich-system-decipherment)**
+
+---
+
 # A Computational Framework for Decoding the Voynich Manuscript
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
